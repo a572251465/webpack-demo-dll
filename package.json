@@ -1,0 +1,21 @@
+{
+  "name": "webpack-demo-dll",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dll": "webpack --mode production --config build/webpack.dll.config.js",
+    "build": "webpack --config build/webpack.config.js"
+  },
+  "devDependencies": {
+    "add-asset-html-webpack-plugin": "^3.2.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "prettier": "^2.5.1",
+    "vue": "^2.5.21",
+    "vue-router": "^3.0.7",
+    "vuex": "^3.0.1",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
